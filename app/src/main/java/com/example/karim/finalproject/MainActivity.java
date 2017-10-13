@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "Karim", Toast.LENGTH_SHORT).show();
 
-        Log.d(TAG, "onCreate: Edel");
+        Log.d(TAG, "onCreate: Edel Torres");
     }
 }
