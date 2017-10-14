@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.fragment_pay);
         Toast.makeText(this, "Karim", Toast.LENGTH_SHORT).show();
         Log.d(TAG, "onCreate: Edel Torres");
         Log.d(TAG, "onCreate: Zack Robinson");
