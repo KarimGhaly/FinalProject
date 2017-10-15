@@ -7,11 +7,13 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+
+
     String TAG = "MainACtivityTag";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_pay);
+        setContentView(R.layout.fragment_pay_stub);
         Toast.makeText(this, "Karim", Toast.LENGTH_SHORT).show();
         Log.d(TAG, "onCreate: Edel Torres");
         Log.d(TAG, "onCreate: Zack Robinson");
