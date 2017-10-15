@@ -95,6 +95,7 @@
 
                     <!--Federal Tax-->
                     <TextView
+                        android:layout_columnWeight="20"
                         android:layout_width="@dimen/payStub_deductionsTitleTextViewWidth"
                         android:layout_height="@dimen/payStub_rowTextViewHeight"
                         android:layout_column="0"
@@ -107,6 +108,7 @@
 
 
                     <TextView
+                        android:layout_columnWeight="10"
                         android:layout_width="@dimen/payStub_deductionsTotalTextViewWidth"
                         android:layout_height="@dimen/payStub_rowTextViewHeight"
                         android:layout_column="1"
@@ -120,6 +122,8 @@
                         android:textSize="@dimen/payStub_displayTextSize" />
 
                     <TextView
+
+                        android:layout_columnWeight="5"
                         android:layout_width="@dimen/payStub_deductionsTitleTextViewWidth"
                         android:layout_height="@dimen/payStub_rowTextViewHeight"
                         android:layout_column="2"
@@ -275,6 +279,7 @@
                     android:rowCount="15">
                     <!--Medical Insurance-->
                     <TextView
+                        android:layout_columnWeight="20"
                         android:layout_width="@dimen/payStub_deductionsTitleTextViewWidth"
                         android:layout_height="@dimen/payStub_rowTextViewHeight"
                         android:layout_column="0"
@@ -288,6 +293,7 @@
 
 
                     <TextView
+                        android:layout_columnWeight="10"
                         android:layout_width="@dimen/payStub_deductionsTotalTextViewWidth"
                         android:layout_height="@dimen/payStub_rowTextViewHeight"
                         android:layout_column="1"
@@ -301,6 +307,7 @@
                         android:textSize="@dimen/payStub_displayTextSize" />
 
                     <TextView
+                        android:layout_columnWeight="5"
                         android:layout_width="@dimen/payStub_deductionsTitleTextViewWidth"
                         android:layout_height="@dimen/payStub_rowTextViewHeight"
                         android:layout_column="2"
@@ -539,6 +546,7 @@
                     android:rowCount="15">
                     <!--Advances Deducted-->
                     <TextView
+                        android:layout_columnWeight="20"
                         android:layout_width="@dimen/payStub_deductionsTitleTextViewWidth"
                         android:layout_height="@dimen/payStub_rowTextViewHeight"
                         android:layout_column="0"
@@ -551,6 +559,7 @@
                         android:textSize="@dimen/payStub_rowTitleTextSize" />
 
                     <TextView
+                        android:layout_columnWeight="10"
                         android:layout_width="@dimen/payStub_deductionsTotalTextViewWidth"
                         android:layout_height="@dimen/payStub_rowTextViewHeight"
                         android:layout_column="1"
@@ -564,6 +573,7 @@
                         android:textSize="@dimen/payStub_displayTextSize" />
 
                     <TextView
+                        android:layout_columnWeight="5"
                         android:layout_width="@dimen/payStub_deductionsTitleTextViewWidth"
                         android:layout_height="@dimen/payStub_rowTextViewHeight"
                         android:layout_column="2"
@@ -597,6 +607,7 @@
                     android:rowCount="15">
                     <!--Total Deductions-->
                     <TextView
+                        android:layout_columnWeight="20"
                         android:layout_width="@dimen/payStub_deductionsTitleTextViewWidth"
                         android:layout_height="@dimen/payStub_rowTextViewHeight"
                         android:layout_column="0"
@@ -608,6 +619,7 @@
                         android:textSize="@dimen/payStub_rowTitleTextSize" />
 
                     <TextView
+                        android:layout_columnWeight="10"
                         android:layout_width="@dimen/payStub_deductionsTotalTextViewWidth"
                         android:layout_height="@dimen/payStub_rowTextViewHeight"
                         android:layout_column="1"
@@ -621,6 +633,7 @@
                         android:textSize="@dimen/payStub_displayTextSize" />
 
                     <TextView
+                        android:layout_columnWeight="5"
                         android:layout_width="@dimen/payStub_deductionsTitleTextViewWidth"
                         android:layout_height="@dimen/payStub_rowTextViewHeight"
                         android:layout_column="2"
@@ -638,9 +651,6 @@
             </android.support.v7.widget.CardView>
 
 
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
